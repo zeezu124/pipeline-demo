@@ -1,4 +1,4 @@
-name: Base Workflow
+name: Integration Workflow
 
 on: [push]
 

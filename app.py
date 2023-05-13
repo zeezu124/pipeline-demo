@@ -22,6 +22,10 @@ def get_test_data():
     print("loaded data here")
     test = preprocess(dataset=dataset)
     print("preprocess")
+    
+    #reduced test df to about 26 rows to reduce runtime
+    test = test[~test.index.isin(range(0, 5400))]
+    print('Row Count of test:', len(test))
     arr1 = []
     arr2= []
     for data in test['text']:
@@ -46,34 +50,24 @@ pipeline = load("twitter_roberta_cpu_2.joblib")
 def requestResults():
     
     test = get_test_data()
-    print(test['text'].to_list())
     test['prediction'] = pipeline.predict(test['text'].to_list())
-    data = str(test['prediction']) + '\n\n'
-    print(data)
-    #data = str(test.prediction.value_counts()) + '\n\n'
+    #data = str(test['prediction']) + '\n\n'
+    data = str(test.prediction.value_counts()) + '\n\n'
     return data + str(test['text'])
 
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def home():
     return render_template('home.html')
 
-
 @app.route('/', methods=['POST', 'GET'])
 def get_data():
     if request.method == 'POST':
-        result = requestResults()
-        return render_template('home.html', result=result)
+        return "<xmp>" + str(requestResults()) + "</xmp>"
     return render_template('home.html')
-
-
-@app.route('/success/<kw>')
-def success(kw):
-    return "<xmp>" + str(requestResults(kw)) + " </xmp> "
-
-
+    
+    
 if __name__ == '__main__' :
     app.run(debug=True)

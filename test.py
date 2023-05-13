@@ -1,22 +1,25 @@
 import json
+import unittest
 import requests
 
-# Set the URL for the Flask application
-url = 'http://localhost:5000/'
+class FlaskTest(unittest.TestCase):
+    def setUp(self):
+        self.url = 'http://localhost:5000'
+        self.query = 'example query'
+        self.data = {
+            'search_query': self.query
+            }
 
-# Define the search query
-query = 'example query'
+    def test_search(self):
+        # make a post request to your Flask app
+        data = self.data
+        response = requests.post(url=self.url, data=json.dumps(data))
 
-# Define the data for the POST request
-data = {'search_query': query}
+        # Print the response from the Flask application
+        print(response.content.decode('utf-8'))
 
-# Set the headers for the POST request
-headers = {'Content-type': 'application/json'}
+        # assert that the response is of type object
+        self.assertIsInstance(response, object)
 
-# Send the POST request to the Flask application
-response = requests.post(url=url, data=json.dumps(data), headers=headers)
-
-# Print the response from the Flask application
-print("I am todd hewitt")
-print(response)
-print(response.content.decode('utf-8'))
+if __name__ == '__main__':
+    unittest.main()

@@ -83,7 +83,19 @@ body {
 </head>
 <body>
   <h1>Welcome to the Home Page</h1>
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <div class="search-container">
+       <form action = "http://localhost:5000/" method = "post">
+        <input type="text" placeholder="Search" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
 
+  <div style="padding-left:16px">
+    <h2> Twitter Sentiment Analysis </h2>
+  </div>
   <!-- Form to submit the button -->
   <form method="POST" action="/">
       <input type="submit" value="Invoke requestResults()" name="invoke_button">
@@ -93,19 +105,6 @@ body {
       <h2>Results:</h2>
       <pre>{{ result }}</pre>
   {% endif %}
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <div class="search-container">
-     <form action = "http://localhost:5000/" method = "post">
-      <input type="text" placeholder="Search" name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-  </div>
-</div>
-
-<div style="padding-left:16px">
-  <h2> Twitter Sentiment Analysis </h2>
-</div>
 
 </body>
 </html>

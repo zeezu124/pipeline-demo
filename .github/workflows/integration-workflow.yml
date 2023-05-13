@@ -26,3 +26,7 @@ jobs:
             pip install ruff
             ruff --format=github --target-version=py37 .
         continue-on-error: true
+      - name: Testing with pytest
+        run: |
+            pip install pytest
+            pytest test.py

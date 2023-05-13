@@ -1,4 +1,4 @@
-datasets==2.6.1
+datasets==2.10.1
 Flask==2.3.2
 joblib==1.1.1
 numpy==1.21.5

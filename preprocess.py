@@ -1,4 +1,4 @@
-from utils import *
+from utils import class_freq, multilabel2multiclass, remove_dupes, replace_labels
 from collections import Counter
 
 
@@ -13,7 +13,8 @@ def preprocess(dataset):
     #labels2 = dataset['validation']['labels']
     labels3 = dataset['labels']
 
-    #a_labels = remove_dupes(replace_labels(labels)) # convert these to the reduced 13 labels
+    #convert these to the reduced 13 labels
+    #a_labels = remove_dupes(replace_labels(labels))
     #a_labels2 = remove_dupes(replace_labels(labels2))
     a_labels3 = remove_dupes(replace_labels(labels3))
 

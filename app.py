@@ -1,10 +1,9 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request
 from datasets import load_dataset
 from joblib import load
 import torch as torch
 import pandas as pd
-import numpy as np
-from preprocess import *
+from preprocess import preprocess
 
 pd.set_option('display.max_colwidth', 1000)
 
@@ -18,7 +17,6 @@ class Data:
 def get_test_data():
     print("Clicked here")
     test_data_list = []
-    count = 10
     
     dataset = load_dataset("go_emotions", "simplified")
     print("loaded data here")

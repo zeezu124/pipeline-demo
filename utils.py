@@ -2,7 +2,7 @@ from tqdm import tqdm
 
 def fourteen_labels(x, multi = False): # cuts down to 14 unique labels
     
-    if multi == False:
+    if multi is False:
         x = x[0]
     if x == 2 or x == 10 or x == 11:
         return 3
@@ -19,7 +19,7 @@ def fourteen_labels(x, multi = False): # cuts down to 14 unique labels
     
 def new_labels(x, multi = False): # updates labels to be between 0-13
     
-    if multi == False:
+    if multi is False:
         x = x[0]
     if x == 0:
         return 0
@@ -65,7 +65,7 @@ def replace_labels(labels):
   return labels
 
 def class_freq(data):
-    class_freq = {} # create a dictionary of class frequencies for visualisation purposes
+    class_freq = {} #create a dic of class freq. for visualisation purposes
     classes = list(range(0,14))
     for x in classes:
         class_freq[x] = 0
@@ -77,7 +77,7 @@ def class_freq(data):
             class_freq[j] +=1
     return class_freq
 
-def remove_dupes(data): # stops a data point from having the same class label more than once
+def remove_dupes(data): #stops a data point from having same class label more than once
     z = []
     for x in data:
         z.append(list(dict.fromkeys(x)))

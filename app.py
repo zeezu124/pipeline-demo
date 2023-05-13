@@ -48,8 +48,8 @@ pipeline = load("twitter_roberta_cpu_2.joblib")
 def requestResults():
     
     test = get_test_data()
-    print(test[0:1])
-    test['prediction'] = pipeline.predict(test['text'][0:1])
+    print(test['text'].to_list())
+    test['prediction'] = pipeline.predict(test['text'].to_list())
     data = str(test['prediction']) + '\n\n'
     print(data)
     #data = str(test.prediction.value_counts()) + '\n\n'

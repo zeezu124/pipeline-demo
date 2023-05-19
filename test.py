@@ -4,7 +4,7 @@ import requests
 
 class FlaskTest(unittest.TestCase):
     def setUp(self):
-        self.url = 'http://localhost:5000'
+        self.url = 'http://127.0.0.1:5000'
         self.query = 'example query'
         self.data = {
             'search_query': self.query

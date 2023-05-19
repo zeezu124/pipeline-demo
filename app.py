@@ -63,7 +63,7 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/results', methods=['POST', 'GET'])
+@app.route('/predict', methods=['POST', 'GET'])
 def get_data():
     if request.method == 'POST':
             
@@ -76,7 +76,7 @@ def get_data():
     return render_template('home.html')
     
 
-@app.route('/predict', methods=['POST'])
+@app.route('/results', methods=['POST'])
 def predict():
     if 'input_text' in request.json:
         input_text = request.json['input_text']  # Get the input text from the request

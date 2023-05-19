@@ -97,3 +97,50 @@ def multilabel2multiclass(ls, class_dict):
             ls[i] = [min(temp2)]
     return ls
 
+def num2word(x): # converts numbers back to class names for visualisation purposes
+    if x == 0:
+        return 'admiration'
+    if x == 1:
+        return 'amusement'
+    if x == 2:
+        return 'annoyance'
+    if x == 3:
+        return 'caring'
+    if x == 4:
+        return 'confusion'
+    if x == 5:
+        return 'curiosity'
+    if x == 6:
+        return 'desire'
+    if x == 7:
+        return 'fear'
+    if x == 8:
+        return 'optimism'
+    if x == 9:
+        return 'realisation'
+    if x == 10:
+        return 'relief'
+    if x == 11:
+        return 'sadness'
+    if x == 12:
+        return 'surprise'
+    if x == 13:
+        return 'neutral'
+
+def format(x, text):
+    label = x[0]['label'][6:]
+    label = num2word(int(label))
+    string = f"The text: {text} | denotes this emotion: {label} | with a confidence score of {str(x[0]['score'])}"
+    return string
+
+def requestResults():
+    
+    test = get_test_data()
+    test = test['text'].to_list()
+    testtext = test[24]
+    ans = pipeline.predict(testtext)
+
+    #data = str(test['prediction']) + '\n\n'
+    #data = str(test.prediction.value_counts()) + '\n\n'
+    return format(ans, testtext)
+

@@ -86,6 +86,11 @@ body {
   <div class="topnav">
     <a class="active" href="#home">Home</a>
     <div class="search-container">
+      <form method="POST" action="/predict">
+        <input type="text" name="input_text" placeholder="Enter text to classify">
+        <input type="submit" value="Classify">
+      </form>
+      
        <form action = "http://localhost:5000/" method = "post">
         <input type="text" placeholder="Search" name="search">
         <button type="submit"><i class="fa fa-search"></i></button>

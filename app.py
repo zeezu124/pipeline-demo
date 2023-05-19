@@ -1,9 +1,10 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from datasets import load_dataset
 from joblib import load
 import torch as torch
 import pandas as pd
 from preprocess import preprocess
+from utils import *
 
 pd.set_option('display.max_colwidth', 1000)
 
@@ -62,11 +63,32 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/', methods=['POST', 'GET'])
+@app.route('/results', methods=['POST', 'GET'])
 def get_data():
     if request.method == 'POST':
-        return "<xmp>" + str(requestResults()) + "</xmp>"
+            
+            input_text = request.form['input_text']  # Get the input text from the form
+            prediction = pipeline.predict([input_text])  # Make prediction on the input text using the pipeline
+            string = format(prediction, input_text)
+            return render_template('result.html', prediction=string)  # Display the prediction in the result.html template
+            #return(jsonify(string))
+    
     return render_template('home.html')
+    
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    if 'input_text' in request.json:
+        input_text = request.json['input_text']  # Get the input text from the request
+        prediction = pipeline.predict([input_text])  # Make prediction on the input text using the pipeline
+        predicted_label = prediction# Assuming prediction is a single label
+        string = format(predicted_label, input_text)
+        return jsonify({'output': string})  # Return predicted label as JSON response
+    
+    return jsonify({'error': 'Invalid request'})
+
+
+
     
     
 if __name__ == '__main__' :

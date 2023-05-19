@@ -133,6 +133,16 @@ def format(x, text):
     string = f"The text: {text} | denotes this emotion: {label} | with a confidence score of {str(x[0]['score'])}"
     return string
 
+def format_output(predictions, input_text):
+    formatted_output = []
+    for prediction in predictions:
+        label = prediction['label'][6:]
+        label = num2word(int(label))
+        string = f"The text: {input_text} | denotes this emotion: {label} | with a confidence score of {str(prediction['score'])}"
+        formatted_output.append(string)
+    return formatted_output
+
+
 def requestResults():
     
     test = get_test_data()

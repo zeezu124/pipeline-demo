@@ -52,7 +52,8 @@ body {
   padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
+  background: #2196F3; /* Change background color to match Home button */
+  color: white; /* Change text color to white */
   font-size: 17px;
   border: none;
   cursor: pointer;
@@ -60,7 +61,7 @@ body {
 }
 
 .topnav .search-container button:hover {
-  background: #ccc;
+  background: #0f7ae5; /* Change hover background color to a darker shade */
 }
 
 @media screen and (max-width: 600px) {
@@ -82,30 +83,21 @@ body {
 </style>
 </head>
 <body>
-  <h1>Welcome to the Home Page</h1>
+  <h1>Group 16 Emotion Classification Model Web Application</h1>
   <div class="topnav">
     <a class="active" href="#home">Home</a>
-    <div class="search-container">
+    <form method="POST" action="/">
+      <input type="submit" value="Test Data Results" name="invoke_button" style="background-color: #2196F3; color: white; font-size: 17px; border: none; cursor: pointer; padding: 14px 16px;">
+    </form>
+    <div class="search-container", style="padding-bottom: 10px;">
       <form method="POST" action="/predict">
-        <input type="text" name="input_text" placeholder="Enter text to classify">
-        <input type="submit" value="Classify">
-      </form>
-      
-       <form action = "http://localhost:5000/" method = "post">
-        <input type="text" placeholder="Search" name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
+        <input type="text" name="input_text" placeholder="Enter text to classify" style="padding: 6px; margin-top: 8px; font-size: 17px; border: none; width: 700px;">
+        <input type="submit" value="Classify" style="background-color: #2196F3; color: white; font-size: 17px; border: none; cursor: pointer; padding: 6px 10px; margin-top: 8px;">
       </form>
     </div>
   </div>
 
-  <div style="padding-left:16px">
-    <h2> Twitter Sentiment Analysis </h2>
-  </div>
-  <!-- Form to submit the button -->
-  <form method="POST" action="/">
-      <input type="submit" value="Invoke requestResults()" name="invoke_button">
-  </form>
-
+  
   {% if result %}
       <h2>Results:</h2>
       <pre>{{ result }}</pre>
@@ -113,5 +105,3 @@ body {
 
 </body>
 </html>
-
-

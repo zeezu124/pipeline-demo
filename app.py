@@ -62,16 +62,29 @@ pipeline = load("twitter_roberta_cpu_2.joblib")
 def requestResults():
     
     test = get_test_data()
+    text = test['text']
     test['prediction'] = pipeline.predict(test['text'].to_list())
     #data = str(test['prediction']) + '\n\n'
-    data = str(test.prediction.value_counts()) + '\n\n'
-    return data + str(test['text'])
+    data = test.prediction
+    answers = []
+    for i in range(0, len(data)):
+        answers.append(format([data[i]], text[i]))
+    
+    #print(data)
+    #return list(data) + list(test['text']) #+ str(test['text'])
+    return answers
 
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
+    return render_template('home.html')
+
+@app.route('/', methods=['POST', 'GET'])
+def get_data1():
+    if request.method == 'POST':
+        return "<xmp>\n" + "\n".join(requestResults()) + "</xmp>"
     return render_template('home.html')
 
 @app.route('/predict', methods=['POST', 'GET'])

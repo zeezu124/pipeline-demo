@@ -5,14 +5,25 @@ import torch as torch
 import pandas as pd
 from preprocess import preprocess
 from utils import *
+import datetime
 
 pd.set_option('display.max_colwidth', 1000)
 
+log_file_path = 'log.txt'
 
 class Data:
     def __initII(self, text, labels):
         self.labels = labels
         self.text = text
+
+
+def log_interaction(input_text, prediction):
+    timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')  # Get the current timestamp
+    with open(log_file_path, 'a') as log_file:
+        log_file.write(f'Timestamp: {timestamp}\n')
+        log_file.write(f'Input: {input_text}\n')
+        log_file.write(f'Prediction: {prediction}\n')
+        log_file.write('\n')  # Add a new line for separation
 
 
 def get_test_data():
@@ -70,6 +81,7 @@ def get_data():
             input_text = request.form['input_text']  # Get the input text from the form
             prediction = pipeline.predict([input_text])  # Make prediction on the input text using the pipeline
             string = format(prediction, input_text)
+            log_interaction(input_text, string)
             return render_template('result.html', prediction=string)  # Display the prediction in the result.html template
             #return(jsonify(string))
     
@@ -81,8 +93,9 @@ def predict():
     if 'input_text' in request.json:
         input_text = request.json['input_text']  # Get the input text from the request
         prediction = pipeline.predict([input_text])  # Make prediction on the input text using the pipeline
-        predicted_label = prediction# Assuming prediction is a single label
-        string = format(predicted_label, input_text)
+        #predicted_label = prediction# Assuming prediction is a single label
+        string = format(prediction, input_text)
+        log_interaction(input_text, string)
         return jsonify({'output': string})  # Return predicted label as JSON response
     
     return jsonify({'error': 'Invalid request'})

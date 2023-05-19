@@ -1,0 +1,16 @@
+Timestamp: 2023-05-19 15:23:41
+Input: parsa is a very smart and funny guy
+Prediction: [{'label': 'LABEL_0', 'score': 0.9999724626541138}]
+
+Timestamp: 2023-05-19 15:24:06
+Input: adarsh is super annoying
+Prediction: [{'label': 'LABEL_2', 'score': 0.9999459981918335}]
+
+Timestamp: 2023-05-19 15:25:02
+Input: jordan is a very smart and funny guy
+Prediction: The text: jordan is a very smart and funny guy | denotes this emotion: admiration | with a confidence score of 0.9999731779098511
+
+Timestamp: 2023-05-19 15:25:51
+Input: adarsh has 4 eyes
+Prediction: The text: adarsh has 4 eyes | denotes this emotion: neutral | with a confidence score of 0.9999620914459229
+

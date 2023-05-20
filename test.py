@@ -18,10 +18,16 @@ class FlaskTest(unittest.TestCase):
 
         # Make assertions on the JSON data
         
-        assert isinstance(json_data, dict) #Expected JSON response to be a dictionary
-        assert "output" in json_data #Expected 'output' key to be present in JSON response
+        #Expected JSON response to be a dictionary
+        assert isinstance(json_data, dict) 
+        #Expected 'output' key to be present in JSON response
+        assert "output" in json_data 
         #Expected 'key' to have value specified
-        assert json_data["output"] == "The text: I hate everything lol | denotes this emotion: annoyance | with a confidence score of 0.9987181425094604"
+        assert json_data["output"] == """
+        The text: I hate everything lol | 
+        denotes this emotion: annoyance | 
+        with a confidence score of 0.9987181425094604
+        """
         
     def test_results_error(self):
             # make a post request to your Flask app

@@ -1,8 +1,6 @@
 import subprocess
 import json
 import time
-import random
-import string
 from datetime import datetime
 
 def perform_stress_test(api_endpoint, input_texts, num_requests):
@@ -10,7 +8,8 @@ def perform_stress_test(api_endpoint, input_texts, num_requests):
     curl_commands = []
     for input_text in input_texts:
         data = json.dumps({'input_text': input_text})
-        curl_commands.append(f'curl -X POST -H "Content-Type: application/json" -d \'{data}\' {api_endpoint}')
+        curl_commands.append(f'''curl -X POST -H "Content-Type: application/json" 
+                             -d \'{data}\' {api_endpoint}''')
 
     # Send concurrent curl requests using subprocess
     processes = []

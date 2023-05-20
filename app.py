@@ -4,7 +4,7 @@ from joblib import load
 import torch as torch
 import pandas as pd
 from preprocess import preprocess
-from utils import format
+from utils import format, format_output
 import datetime
 
 pd.set_option('display.max_colwidth', 1000)
@@ -18,7 +18,8 @@ class Data:
 
 
 def log_interaction(input_text, prediction):
-    timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')  # Get the current timestamp
+    # Get the current timestamp
+    timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open(log_file_path, 'a') as log_file:
         log_file.write(f'Timestamp: {timestamp}\n')
         log_file.write(f'Input: {input_text}\n')
@@ -90,12 +91,14 @@ def get_data1():
 @app.route('/predict', methods=['POST', 'GET'])
 def get_data():
     if request.method == 'POST':
-            
-            input_text = request.form['input_text']  # Get the input text from the form
-            prediction = pipeline.predict([input_text])  # Make prediction on the input text using the pipeline
+            # Get the input text from the form
+            input_text = request.form['input_text']
+            # Make prediction on the input text using the pipeline
+            prediction = pipeline.predict([input_text])  
             string = format(prediction, input_text)
             log_interaction(input_text, string)
-            return render_template('result.html', prediction=string)  # Display the prediction in the result.html template
+            # Display the prediction in the result.html template
+            return render_template('result.html', prediction=string) 
             #return(jsonify(string))
     
     return render_template('home.html')
@@ -104,8 +107,10 @@ def get_data():
 @app.route('/results', methods=['POST'])
 def predict():
     if 'input_text' in request.json:
-        input_text = request.json['input_text']  # Get the input text from the request
-        prediction = pipeline.predict([input_text])  # Make prediction on the input text using the pipeline
+        # Get the input text from the request
+        input_text = request.json['input_text']
+        # Make prediction on the input text using the pipeline
+        prediction = pipeline.predict([input_text])
         #predicted_label = prediction# Assuming prediction is a single label
         #changed from format to format_output
         string = format_output(prediction, input_text)
@@ -117,8 +122,10 @@ def predict():
 @app.route('/results_json', methods=['POST'])
 def predict1():
     if 'input_text' in request.json:
-        input_text = request.json['input_text']  # Get the input text from the request
-        prediction = pipeline.predict([input_text])  # Make prediction on the input text using the pipeline
+        # Get the input text from the request
+        input_text = request.json['input_text']
+        # Make prediction on the input text using the pipeline
+        prediction = pipeline.predict([input_text])  
         #predicted_label = prediction# Assuming prediction is a single label
         #changed from format to format_output
         string = format_output(prediction, input_text)

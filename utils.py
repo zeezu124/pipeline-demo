@@ -133,7 +133,8 @@ def num2word(x):
 def format(x, text):
     label = x[0]['label'][6:]
     label = num2word(int(label))
-    string = f"The text: {text} | denotes this emotion: {label} | with a confidence score of {str(x[0]['score'])}"
+    string = f"""The text: {text} | denotes this emotion: {label} | 
+                with a confidence score of {str(x[0]['score'])}"""
     return string
 
 def format_output(predictions, input_text):
@@ -161,7 +162,9 @@ def format_output2(predictions, input_text):
         label = num2word(int(label))
         score = prediction.get('score', None)  # Get the confidence score or None if not present
         if score is not None:
-            string = f"The text: {input_text} | denotes this emotion: {label} | with a confidence score of {str(score)}"
+            string = f"""The text: {input_text} | 
+                    denotes this emotion: {label} | 
+                    with a confidence score of {str(score)}"""
         else:
             string = f"The text: {input_text} | denotes this emotion: {label}"
         formatted_output.append(string)
@@ -173,7 +176,9 @@ def format_output1(predictions, input_text):
     for prediction in predictions:
         label = prediction['label'][6:]
         label = num2word(int(label))
-        string = f"The text: {input_text} | denotes this emotion: {label} | with a confidence score of {str(prediction['score'])}"
+        string = f"""The text: {input_text} | 
+                denotes this emotion: {label} | 
+                with a confidence score of {str(prediction['score'])}"""
         formatted_output.append(string)
     return formatted_output
 

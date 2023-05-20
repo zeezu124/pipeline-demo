@@ -1,0 +1,3 @@
+Total Time: 0.30300164222717285 seconds
+Average Time: 0.030300164222717287 seconds
+Status Codes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]

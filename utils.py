@@ -138,6 +138,38 @@ def format_output(predictions, input_text):
     for prediction in predictions:
         label = prediction['label'][6:]
         label = num2word(int(label))
+        score = prediction.get('score', None)  # Get the confidence score or None if not present
+        
+        output_dict = {
+            'text': input_text,
+            'emotion': label,
+            'score': score
+        }
+        
+        formatted_output.append(output_dict)
+    
+    return formatted_output
+
+
+def format_output2(predictions, input_text):
+    formatted_output = []
+    for prediction in predictions:
+        label = prediction['label'][6:]
+        label = num2word(int(label))
+        score = prediction.get('score', None)  # Get the confidence score or None if not present
+        if score is not None:
+            string = f"The text: {input_text} | denotes this emotion: {label} | with a confidence score of {str(score)}"
+        else:
+            string = f"The text: {input_text} | denotes this emotion: {label}"
+        formatted_output.append(string)
+    return formatted_output
+
+
+def format_output1(predictions, input_text):
+    formatted_output = []
+    for prediction in predictions:
+        label = prediction['label'][6:]
+        label = num2word(int(label))
         string = f"The text: {input_text} | denotes this emotion: {label} | with a confidence score of {str(prediction['score'])}"
         formatted_output.append(string)
     return formatted_output

@@ -18,3 +18,927 @@ Timestamp: 2023-05-19 15:28:09
 Input: Your input text goes here
 Prediction: The text: Your input text goes here | denotes this emotion: neutral | with a confidence score of 0.9999651908874512
 
+Timestamp: 2023-05-20 12:13:34
+Input: the weather is really nice today
+Prediction: The text: the weather is really nice today | denotes this emotion: admiration | with a confidence score of 0.9998782873153687
+
+Timestamp: 2023-05-20 12:14:53
+Input: random text
+Prediction: The text: random text | denotes this emotion: neutral | with a confidence score of 0.9999797344207764
+
+Timestamp: 2023-05-20 12:50:43
+Input: random text
+Prediction: The text: random text | denotes this emotion: neutral | with a confidence score of 0.9999797344207764
+
+Timestamp: 2023-05-20 12:54:47
+Input: I'm so angry right now!
+Prediction: The text: I'm so angry right now! | denotes this emotion: annoyance | with a confidence score of 0.9999444484710693
+
+Timestamp: 2023-05-20 12:54:47
+Input: This is absolutely infuriating!
+Prediction: The text: This is absolutely infuriating! | denotes this emotion: annoyance | with a confidence score of 0.9999489784240723
+
+Timestamp: 2023-05-20 12:54:47
+Input: I can't believe how frustrating this situation is!
+Prediction: The text: I can't believe how frustrating this situation is! | denotes this emotion: annoyance | with a confidence score of 0.9999476671218872
+
+Timestamp: 2023-05-20 12:54:47
+Input: I'm fed up with all the incompetence!
+Prediction: The text: I'm fed up with all the incompetence! | denotes this emotion: annoyance | with a confidence score of 0.9999459981918335
+
+Timestamp: 2023-05-20 12:54:47
+Input: This is making my blood boil!
+Prediction: The text: This is making my blood boil! | denotes this emotion: fear | with a confidence score of 0.9994780421257019
+
+Timestamp: 2023-05-20 12:54:47
+Input: I'm seething with anger!
+Prediction: The text: I'm seething with anger! | denotes this emotion: annoyance | with a confidence score of 0.999929666519165
+
+Timestamp: 2023-05-20 12:54:48
+Input: I've had enough of this nonsense!
+Prediction: The text: I've had enough of this nonsense! | denotes this emotion: annoyance | with a confidence score of 0.9998941421508789
+
+Timestamp: 2023-05-20 12:54:48
+Input: This is driving me crazy!
+Prediction: The text: This is driving me crazy! | denotes this emotion: amusement | with a confidence score of 0.9999020099639893
+
+Timestamp: 2023-05-20 12:54:48
+Input: I'm outraged by their behavior!
+Prediction: The text: I'm outraged by their behavior! | denotes this emotion: annoyance | with a confidence score of 0.999792754650116
+
+Timestamp: 2023-05-20 12:54:48
+Input: I'm seeing red!
+Prediction: The text: I'm seeing red! | denotes this emotion: neutral | with a confidence score of 0.9999550580978394
+
+Timestamp: 2023-05-20 12:54:48
+Input: I can't contain my anger anymore!
+Prediction: The text: I can't contain my anger anymore! | denotes this emotion: annoyance | with a confidence score of 0.9999438524246216
+
+Timestamp: 2023-05-20 12:54:48
+Input: This is beyond infuriating!
+Prediction: The text: This is beyond infuriating! | denotes this emotion: annoyance | with a confidence score of 0.9999479055404663
+
+Timestamp: 2023-05-20 12:54:48
+Input: I'm furious!
+Prediction: The text: I'm furious! | denotes this emotion: annoyance | with a confidence score of 0.9999443292617798
+
+Timestamp: 2023-05-20 12:54:48
+Input: I'm really pissed off!
+Prediction: The text: I'm really pissed off! | denotes this emotion: annoyance | with a confidence score of 0.999951958656311
+
+Timestamp: 2023-05-20 12:54:48
+Input: I'm livid with rage!
+Prediction: The text: I'm livid with rage! | denotes this emotion: annoyance | with a confidence score of 0.9999258518218994
+
+Timestamp: 2023-05-20 12:54:48
+Input: This is making me lose my temper!
+Prediction: The text: This is making me lose my temper! | denotes this emotion: sadness | with a confidence score of 0.9998735189437866
+
+Timestamp: 2023-05-20 12:54:48
+Input: I'm so mad I could scream!
+Prediction: The text: I'm so mad I could scream! | denotes this emotion: annoyance | with a confidence score of 0.9991857409477234
+
+Timestamp: 2023-05-20 12:54:48
+Input: I can't stand this anymore!
+Prediction: The text: I can't stand this anymore! | denotes this emotion: annoyance | with a confidence score of 0.9999573230743408
+
+Timestamp: 2023-05-20 12:54:49
+Input: I'm absolutely incensed!
+Prediction: The text: I'm absolutely incensed! | denotes this emotion: annoyance | with a confidence score of 0.9995498061180115
+
+Timestamp: 2023-05-20 12:54:49
+Input: This is making me want to tear my hair out!
+Prediction: The text: This is making me want to tear my hair out! | denotes this emotion: sadness | with a confidence score of 0.9993703961372375
+
+Timestamp: 2023-05-20 12:56:31
+Input: I'm so angry right now!
+Prediction: The text: I'm so angry right now! | denotes this emotion: annoyance | with a confidence score of 0.9999444484710693
+
+Timestamp: 2023-05-20 12:58:25
+Input: I'm so angry right now!
+Prediction: The text: I'm so angry right now! | denotes this emotion: annoyance | with a confidence score of 0.9999444484710693
+
+Timestamp: 2023-05-20 12:59:29
+Input: I'm so angry right now!
+Prediction: The text: I'm so angry right now! | denotes this emotion: annoyance | with a confidence score of 0.9999444484710693
+
+Timestamp: 2023-05-20 13:00:41
+Input: I'm so angry right now!
+Prediction: The text: I'm so angry right now! | denotes this emotion: annoyance | with a confidence score of 0.9999444484710693
+
+Timestamp: 2023-05-20 13:00:49
+Input: I'm so angry right now!
+Prediction: The text: I'm so angry right now! | denotes this emotion: annoyance | with a confidence score of 0.9999444484710693
+
+Timestamp: 2023-05-20 13:00:58
+Input: random text
+Prediction: The text: random text | denotes this emotion: neutral | with a confidence score of 0.9999797344207764
+
+Timestamp: 2023-05-20 13:03:57
+Input: random text
+Prediction: The text: random text | denotes this emotion: neutral | with a confidence score of 0.9999797344207764
+
+Timestamp: 2023-05-20 13:04:00
+Input: random text
+Prediction: The text: random text | denotes this emotion: neutral | with a confidence score of 0.9999797344207764
+
+Timestamp: 2023-05-20 13:04:42
+Input: random text
+Prediction: [{'text': 'random text', 'emotion': 'neutral', 'score': 0.9999797344207764}]
+
+Timestamp: 2023-05-20 13:05:22
+Input: I'm so angry right now!
+Prediction: [{'text': "I'm so angry right now!", 'emotion': 'annoyance', 'score': 0.9999444484710693}]
+
+Timestamp: 2023-05-20 13:05:51
+Input: I'm so angry right now!
+Prediction: [{'text': "I'm so angry right now!", 'emotion': 'annoyance', 'score': 0.9999444484710693}]
+
+Timestamp: 2023-05-20 13:05:58
+Input: I'm so angry right now!
+Prediction: [{'text': "I'm so angry right now!", 'emotion': 'annoyance', 'score': 0.9999444484710693}]
+
+Timestamp: 2023-05-20 13:06:14
+Input: I'm so angry right now!
+Prediction: [{'text': "I'm so angry right now!", 'emotion': 'annoyance', 'score': 0.9999444484710693}]
+
+Timestamp: 2023-05-20 13:06:23
+Input: I'm so angry right now!
+Prediction: [{'text': "I'm so angry right now!", 'emotion': 'annoyance', 'score': 0.9999444484710693}]
+
+Timestamp: 2023-05-20 13:06:35
+Input: I'm so angry right now!
+Prediction: [{'text': "I'm so angry right now!", 'emotion': 'annoyance', 'score': 0.9999444484710693}]
+
+Timestamp: 2023-05-20 13:07:00
+Input: I'm so angry right now!
+Prediction: [{'text': "I'm so angry right now!", 'emotion': 'annoyance', 'score': 0.9999444484710693}]
+
+Timestamp: 2023-05-20 13:07:00
+Input: This is absolutely infuriating!
+Prediction: [{'text': 'This is absolutely infuriating!', 'emotion': 'annoyance', 'score': 0.9999489784240723}]
+
+Timestamp: 2023-05-20 13:07:00
+Input: I can't believe how frustrating this situation is!
+Prediction: [{'text': "I can't believe how frustrating this situation is!", 'emotion': 'annoyance', 'score': 0.9999476671218872}]
+
+Timestamp: 2023-05-20 13:07:00
+Input: I'm fed up with all the incompetence!
+Prediction: [{'text': "I'm fed up with all the incompetence!", 'emotion': 'annoyance', 'score': 0.9999459981918335}]
+
+Timestamp: 2023-05-20 13:07:00
+Input: This is making my blood boil!
+Prediction: [{'text': 'This is making my blood boil!', 'emotion': 'fear', 'score': 0.9994780421257019}]
+
+Timestamp: 2023-05-20 13:07:00
+Input: I'm seething with anger!
+Prediction: [{'text': "I'm seething with anger!", 'emotion': 'annoyance', 'score': 0.999929666519165}]
+
+Timestamp: 2023-05-20 13:07:00
+Input: I've had enough of this nonsense!
+Prediction: [{'text': "I've had enough of this nonsense!", 'emotion': 'annoyance', 'score': 0.9998941421508789}]
+
+Timestamp: 2023-05-20 13:07:00
+Input: This is driving me crazy!
+Prediction: [{'text': 'This is driving me crazy!', 'emotion': 'amusement', 'score': 0.9999020099639893}]
+
+Timestamp: 2023-05-20 13:07:00
+Input: I'm outraged by their behavior!
+Prediction: [{'text': "I'm outraged by their behavior!", 'emotion': 'annoyance', 'score': 0.999792754650116}]
+
+Timestamp: 2023-05-20 13:07:01
+Input: I'm seeing red!
+Prediction: [{'text': "I'm seeing red!", 'emotion': 'neutral', 'score': 0.9999550580978394}]
+
+Timestamp: 2023-05-20 13:07:01
+Input: I can't contain my anger anymore!
+Prediction: [{'text': "I can't contain my anger anymore!", 'emotion': 'annoyance', 'score': 0.9999438524246216}]
+
+Timestamp: 2023-05-20 13:07:01
+Input: This is beyond infuriating!
+Prediction: [{'text': 'This is beyond infuriating!', 'emotion': 'annoyance', 'score': 0.9999479055404663}]
+
+Timestamp: 2023-05-20 13:07:01
+Input: I'm furious!
+Prediction: [{'text': "I'm furious!", 'emotion': 'annoyance', 'score': 0.9999443292617798}]
+
+Timestamp: 2023-05-20 13:07:01
+Input: I'm really pissed off!
+Prediction: [{'text': "I'm really pissed off!", 'emotion': 'annoyance', 'score': 0.999951958656311}]
+
+Timestamp: 2023-05-20 13:07:01
+Input: I'm livid with rage!
+Prediction: [{'text': "I'm livid with rage!", 'emotion': 'annoyance', 'score': 0.9999258518218994}]
+
+Timestamp: 2023-05-20 13:07:01
+Input: This is making me lose my temper!
+Prediction: [{'text': 'This is making me lose my temper!', 'emotion': 'sadness', 'score': 0.9998735189437866}]
+
+Timestamp: 2023-05-20 13:07:01
+Input: I'm so mad I could scream!
+Prediction: [{'text': "I'm so mad I could scream!", 'emotion': 'annoyance', 'score': 0.9991857409477234}]
+
+Timestamp: 2023-05-20 13:07:01
+Input: I can't stand this anymore!
+Prediction: [{'text': "I can't stand this anymore!", 'emotion': 'annoyance', 'score': 0.9999573230743408}]
+
+Timestamp: 2023-05-20 13:07:01
+Input: I'm absolutely incensed!
+Prediction: [{'text': "I'm absolutely incensed!", 'emotion': 'annoyance', 'score': 0.9995498061180115}]
+
+Timestamp: 2023-05-20 13:07:02
+Input: This is making me want to tear my hair out!
+Prediction: [{'text': 'This is making me want to tear my hair out!', 'emotion': 'sadness', 'score': 0.9993703961372375}]
+
+Timestamp: 2023-05-20 13:20:49
+Input: I'm so angry right now!
+Prediction: [{'text': "I'm so angry right now!", 'emotion': 'annoyance', 'score': 0.9999444484710693}]
+
+Timestamp: 2023-05-20 13:20:49
+Input: This is absolutely infuriating!
+Prediction: [{'text': 'This is absolutely infuriating!', 'emotion': 'annoyance', 'score': 0.9999489784240723}]
+
+Timestamp: 2023-05-20 13:20:49
+Input: I can't believe how frustrating this situation is!
+Prediction: [{'text': "I can't believe how frustrating this situation is!", 'emotion': 'annoyance', 'score': 0.9999476671218872}]
+
+Timestamp: 2023-05-20 13:20:49
+Input: I'm fed up with all the incompetence!
+Prediction: [{'text': "I'm fed up with all the incompetence!", 'emotion': 'annoyance', 'score': 0.9999459981918335}]
+
+Timestamp: 2023-05-20 13:20:49
+Input: This is making my blood boil!
+Prediction: [{'text': 'This is making my blood boil!', 'emotion': 'fear', 'score': 0.9994780421257019}]
+
+Timestamp: 2023-05-20 13:20:50
+Input: I'm seething with anger!
+Prediction: [{'text': "I'm seething with anger!", 'emotion': 'annoyance', 'score': 0.999929666519165}]
+
+Timestamp: 2023-05-20 13:20:50
+Input: I've had enough of this nonsense!
+Prediction: [{'text': "I've had enough of this nonsense!", 'emotion': 'annoyance', 'score': 0.9998941421508789}]
+
+Timestamp: 2023-05-20 13:20:50
+Input: This is driving me crazy!
+Prediction: [{'text': 'This is driving me crazy!', 'emotion': 'amusement', 'score': 0.9999020099639893}]
+
+Timestamp: 2023-05-20 13:20:50
+Input: I'm outraged by their behavior!
+Prediction: [{'text': "I'm outraged by their behavior!", 'emotion': 'annoyance', 'score': 0.999792754650116}]
+
+Timestamp: 2023-05-20 13:20:50
+Input: I'm seeing red!
+Prediction: [{'text': "I'm seeing red!", 'emotion': 'neutral', 'score': 0.9999550580978394}]
+
+Timestamp: 2023-05-20 13:20:50
+Input: I can't contain my anger anymore!
+Prediction: [{'text': "I can't contain my anger anymore!", 'emotion': 'annoyance', 'score': 0.9999438524246216}]
+
+Timestamp: 2023-05-20 13:20:50
+Input: This is beyond infuriating!
+Prediction: [{'text': 'This is beyond infuriating!', 'emotion': 'annoyance', 'score': 0.9999479055404663}]
+
+Timestamp: 2023-05-20 13:20:50
+Input: I'm furious!
+Prediction: [{'text': "I'm furious!", 'emotion': 'annoyance', 'score': 0.9999443292617798}]
+
+Timestamp: 2023-05-20 13:20:50
+Input: I'm really pissed off!
+Prediction: [{'text': "I'm really pissed off!", 'emotion': 'annoyance', 'score': 0.999951958656311}]
+
+Timestamp: 2023-05-20 13:20:50
+Input: I'm livid with rage!
+Prediction: [{'text': "I'm livid with rage!", 'emotion': 'annoyance', 'score': 0.9999258518218994}]
+
+Timestamp: 2023-05-20 13:20:51
+Input: This is making me lose my temper!
+Prediction: [{'text': 'This is making me lose my temper!', 'emotion': 'sadness', 'score': 0.9998735189437866}]
+
+Timestamp: 2023-05-20 13:20:51
+Input: I'm so mad I could scream!
+Prediction: [{'text': "I'm so mad I could scream!", 'emotion': 'annoyance', 'score': 0.9991857409477234}]
+
+Timestamp: 2023-05-20 13:20:51
+Input: I can't stand this anymore!
+Prediction: [{'text': "I can't stand this anymore!", 'emotion': 'annoyance', 'score': 0.9999573230743408}]
+
+Timestamp: 2023-05-20 13:20:51
+Input: I'm absolutely incensed!
+Prediction: [{'text': "I'm absolutely incensed!", 'emotion': 'annoyance', 'score': 0.9995498061180115}]
+
+Timestamp: 2023-05-20 13:20:51
+Input: This is making me want to tear my hair out!
+Prediction: [{'text': 'This is making me want to tear my hair out!', 'emotion': 'sadness', 'score': 0.9993703961372375}]
+
+Timestamp: 2023-05-20 13:21:08
+Input: i am happy to be here
+Prediction: The text: i am happy to be here | denotes this emotion: amusement | with a confidence score of 0.9999030828475952
+
+Timestamp: 2023-05-20 13:21:42
+Input: i am happy to be here
+Prediction: The text: i am happy to be here | denotes this emotion: amusement | with a confidence score of 0.9999030828475952
+
+Timestamp: 2023-05-20 13:22:05
+Input: i am happy to be here
+Prediction: The text: i am happy to be here | denotes this emotion: amusement | with a confidence score of 0.9999030828475952
+
+Timestamp: 2023-05-20 13:23:35
+Input: I'm inspired by their incredible talent.
+Prediction: [{'text': "I'm inspired by their incredible talent.", 'emotion': 'admiration', 'score': 0.9999721050262451}]
+
+Timestamp: 2023-05-20 13:23:35
+Input: Their achievements never cease to amaze me.
+Prediction: [{'text': 'Their achievements never cease to amaze me.', 'emotion': 'admiration', 'score': 0.9999555349349976}]
+
+Timestamp: 2023-05-20 13:23:35
+Input: I have great respect for their dedication and hard work.
+Prediction: [{'text': 'I have great respect for their dedication and hard work.', 'emotion': 'admiration', 'score': 0.9999697208404541}]
+
+Timestamp: 2023-05-20 13:23:35
+Input: Their kindness and generosity are truly admirable.
+Prediction: [{'text': 'Their kindness and generosity are truly admirable.', 'emotion': 'admiration', 'score': 0.9999719858169556}]
+
+Timestamp: 2023-05-20 13:23:35
+Input: I'm in awe of their creativity and innovation.
+Prediction: [{'text': "I'm in awe of their creativity and innovation.", 'emotion': 'admiration', 'score': 0.9999676942825317}]
+
+Timestamp: 2023-05-20 13:23:36
+Input: They always manage to exceed my expectations.
+Prediction: [{'text': 'They always manage to exceed my expectations.', 'emotion': 'desire', 'score': 0.9950994849205017}]
+
+Timestamp: 2023-05-20 13:23:36
+Input: Their courage and determination are inspiring.
+Prediction: [{'text': 'Their courage and determination are inspiring.', 'emotion': 'admiration', 'score': 0.9999614953994751}]
+
+Timestamp: 2023-05-20 13:23:36
+Input: I'm grateful for their guidance and support.
+Prediction: [{'text': "I'm grateful for their guidance and support.", 'emotion': 'admiration', 'score': 0.9999662637710571}]
+
+Timestamp: 2023-05-20 13:23:36
+Input: They have an incredible ability to make a difference.
+Prediction: [{'text': 'They have an incredible ability to make a difference.', 'emotion': 'admiration', 'score': 0.9999693632125854}]
+
+Timestamp: 2023-05-20 13:23:36
+Input: I deeply admire their strength and resilience.
+Prediction: [{'text': 'I deeply admire their strength and resilience.', 'emotion': 'admiration', 'score': 0.9999648332595825}]
+
+Timestamp: 2023-05-20 13:24:06
+Input: That joke had me in stitches!
+Prediction: [{'text': 'That joke had me in stitches!', 'emotion': 'amusement', 'score': 0.9999163150787354}]
+
+Timestamp: 2023-05-20 13:24:06
+Input: Their hilarious antics always make me laugh.
+Prediction: [{'text': 'Their hilarious antics always make me laugh.', 'emotion': 'amusement', 'score': 0.9999483823776245}]
+
+Timestamp: 2023-05-20 13:24:06
+Input: I can't help but chuckle at their witty remarks.
+Prediction: [{'text': "I can't help but chuckle at their witty remarks.", 'emotion': 'amusement', 'score': 0.9999434947967529}]
+
+Timestamp: 2023-05-20 13:24:07
+Input: They have a fantastic sense of humor.
+Prediction: [{'text': 'They have a fantastic sense of humor.', 'emotion': 'admiration', 'score': 0.9999736547470093}]
+
+Timestamp: 2023-05-20 13:24:07
+Input: Their comedic timing is impeccable.
+Prediction: [{'text': 'Their comedic timing is impeccable.', 'emotion': 'admiration', 'score': 0.9999687671661377}]
+
+Timestamp: 2023-05-20 13:24:07
+Input: Their funny stories never fail to entertain me.
+Prediction: [{'text': 'Their funny stories never fail to entertain me.', 'emotion': 'amusement', 'score': 0.9999511241912842}]
+
+Timestamp: 2023-05-20 13:24:07
+Input: I'm always amused by their lighthearted personality.
+Prediction: [{'text': "I'm always amused by their lighthearted personality.", 'emotion': 'amusement', 'score': 0.9999310970306396}]
+
+Timestamp: 2023-05-20 13:24:07
+Input: Their jokes never cease to brighten my day.
+Prediction: [{'text': 'Their jokes never cease to brighten my day.', 'emotion': 'amusement', 'score': 0.9999431371688843}]
+
+Timestamp: 2023-05-20 13:24:07
+Input: Their funny videos always bring a smile to my face.
+Prediction: [{'text': 'Their funny videos always bring a smile to my face.', 'emotion': 'amusement', 'score': 0.9999403953552246}]
+
+Timestamp: 2023-05-20 13:24:07
+Input: I can't stop giggling at their silly antics.
+Prediction: [{'text': "I can't stop giggling at their silly antics.", 'emotion': 'amusement', 'score': 0.9999438524246216}]
+
+Timestamp: 2023-05-20 13:24:28
+Input: They always show genuine concern for others.
+Prediction: [{'text': 'They always show genuine concern for others.', 'emotion': 'caring', 'score': 0.9992930889129639}]
+
+Timestamp: 2023-05-20 13:24:28
+Input: Their kindness and compassion are truly heartwarming.
+Prediction: [{'text': 'Their kindness and compassion are truly heartwarming.', 'emotion': 'admiration', 'score': 0.9999527931213379}]
+
+Timestamp: 2023-05-20 13:24:28
+Input: I'm grateful for their constant support and care.
+Prediction: [{'text': "I'm grateful for their constant support and care.", 'emotion': 'admiration', 'score': 0.9999659061431885}]
+
+Timestamp: 2023-05-20 13:24:28
+Input: They have a nurturing and loving nature.
+Prediction: [{'text': 'They have a nurturing and loving nature.', 'emotion': 'admiration', 'score': 0.9999544620513916}]
+
+Timestamp: 2023-05-20 13:24:29
+Input: Their thoughtfulness never goes unnoticed.
+Prediction: [{'text': 'Their thoughtfulness never goes unnoticed.', 'emotion': 'admiration', 'score': 0.9999412298202515}]
+
+Timestamp: 2023-05-20 13:24:29
+Input: I appreciate their willingness to lend a helping hand.
+Prediction: [{'text': 'I appreciate their willingness to lend a helping hand.', 'emotion': 'admiration', 'score': 0.9999669790267944}]
+
+Timestamp: 2023-05-20 13:24:29
+Input: They always go out of their way to make others feel loved.
+Prediction: [{'text': 'They always go out of their way to make others feel loved.', 'emotion': 'admiration', 'score': 0.9999233484268188}]
+
+Timestamp: 2023-05-20 13:24:29
+Input: Their caring nature is a source of comfort for me.
+Prediction: [{'text': 'Their caring nature is a source of comfort for me.', 'emotion': 'admiration', 'score': 0.9998189806938171}]
+
+Timestamp: 2023-05-20 13:24:29
+Input: I'm fortunate to have them in my life.
+Prediction: [{'text': "I'm fortunate to have them in my life.", 'emotion': 'admiration', 'score': 0.9999655485153198}]
+
+Timestamp: 2023-05-20 13:24:29
+Input: They have a special gift for making others feel valued and cared for.
+Prediction: [{'text': 'They have a special gift for making others feel valued and cared for.', 'emotion': 'admiration', 'score': 0.999790370464325}]
+
+Timestamp: 2023-05-20 13:25:09
+Input: I'm completely baffled by this situation.
+Prediction: [{'text': "I'm completely baffled by this situation.", 'emotion': 'confusion', 'score': 0.9999243021011353}]
+
+Timestamp: 2023-05-20 13:25:09
+Input: I can't make sense of what's happening.
+Prediction: [{'text': "I can't make sense of what's happening.", 'emotion': 'confusion', 'score': 0.999879002571106}]
+
+Timestamp: 2023-05-20 13:25:09
+Input: Their explanation only added to my confusion.
+Prediction: [{'text': 'Their explanation only added to my confusion.', 'emotion': 'confusion', 'score': 0.9999290704727173}]
+
+Timestamp: 2023-05-20 13:25:09
+Input: I'm struggling to understand the complexity of the issue.
+Prediction: [{'text': "I'm struggling to understand the complexity of the issue.", 'emotion': 'neutral', 'score': 0.9982531666755676}]
+
+Timestamp: 2023-05-20 13:25:09
+Input: I'm lost and don't know which direction to take.
+Prediction: [{'text': "I'm lost and don't know which direction to take.", 'emotion': 'confusion', 'score': 0.9998428821563721}]
+
+Timestamp: 2023-05-20 13:25:09
+Input: Their actions contradict their words, leaving me puzzled.
+Prediction: [{'text': 'Their actions contradict their words, leaving me puzzled.', 'emotion': 'confusion', 'score': 0.9999278783798218}]
+
+Timestamp: 2023-05-20 13:25:09
+Input: The more I try to figure it out, the more confused I become.
+Prediction: [{'text': 'The more I try to figure it out, the more confused I become.', 'emotion': 'confusion', 'score': 0.9998791217803955}]
+
+Timestamp: 2023-05-20 13:25:09
+Input: I feel like I'm in a maze with no clear way out.
+Prediction: [{'text': "I feel like I'm in a maze with no clear way out.", 'emotion': 'fear', 'score': 0.9967097043991089}]
+
+Timestamp: 2023-05-20 13:25:09
+Input: The conflicting information has left me in a state of confusion.
+Prediction: [{'text': 'The conflicting information has left me in a state of confusion.', 'emotion': 'confusion', 'score': 0.9998781681060791}]
+
+Timestamp: 2023-05-20 13:25:10
+Input: I can't wrap my head around the intricacies of the problem.
+Prediction: [{'text': "I can't wrap my head around the intricacies of the problem.", 'emotion': 'confusion', 'score': 0.9996625185012817}]
+
+Timestamp: 2023-05-20 13:25:19
+Input: I'm intrigued by their groundbreaking research.
+Prediction: [{'text': "I'm intrigued by their groundbreaking research.", 'emotion': 'admiration', 'score': 0.998802661895752}]
+
+Timestamp: 2023-05-20 13:25:19
+Input: I have a burning desire to learn more about this topic.
+Prediction: [{'text': 'I have a burning desire to learn more about this topic.', 'emotion': 'desire', 'score': 0.9997779726982117}]
+
+Timestamp: 2023-05-20 13:25:19
+Input: Their unique perspective has piqued my curiosity.
+Prediction: [{'text': 'Their unique perspective has piqued my curiosity.', 'emotion': 'curiosity', 'score': 0.9999256134033203}]
+
+Timestamp: 2023-05-20 13:25:19
+Input: I'm fascinated by their innovative approach.
+Prediction: [{'text': "I'm fascinated by their innovative approach.", 'emotion': 'admiration', 'score': 0.9999619722366333}]
+
+Timestamp: 2023-05-20 13:25:19
+Input: I can't help but wonder how they achieved such remarkable results.
+Prediction: [{'text': "I can't help but wonder how they achieved such remarkable results.", 'emotion': 'admiration', 'score': 0.9999604225158691}]
+
+Timestamp: 2023-05-20 13:25:19
+Input: Their discoveries have sparked my curiosity.
+Prediction: [{'text': 'Their discoveries have sparked my curiosity.', 'emotion': 'curiosity', 'score': 0.9998762607574463}]
+
+Timestamp: 2023-05-20 13:25:19
+Input: I'm eager to explore the depths of this subject.
+Prediction: [{'text': "I'm eager to explore the depths of this subject.", 'emotion': 'amusement', 'score': 0.9997709393501282}]
+
+Timestamp: 2023-05-20 13:25:19
+Input: Their work has opened up a world of possibilities, and I'm curious to see where it leads.
+Prediction: [{'text': "Their work has opened up a world of possibilities, and I'm curious to see where it leads.", 'emotion': 'admiration', 'score': 0.9976609945297241}]
+
+Timestamp: 2023-05-20 13:25:19
+Input: Their ideas have ignited a sense of curiosity within me.
+Prediction: [{'text': 'Their ideas have ignited a sense of curiosity within me.', 'emotion': 'curiosity', 'score': 0.9990044236183167}]
+
+Timestamp: 2023-05-20 13:25:20
+Input: I'm captivated by their ability to uncover new insights.
+Prediction: [{'text': "I'm captivated by their ability to uncover new insights.", 'emotion': 'admiration', 'score': 0.9999673366546631}]
+
+Timestamp: 2023-05-20 13:25:31
+Input: I long for the day when we can be together again.
+Prediction: [{'text': 'I long for the day when we can be together again.', 'emotion': 'desire', 'score': 0.9999151229858398}]
+
+Timestamp: 2023-05-20 13:25:31
+Input: Their presence fills me with a deep longing.
+Prediction: [{'text': 'Their presence fills me with a deep longing.', 'emotion': 'desire', 'score': 0.998915433883667}]
+
+Timestamp: 2023-05-20 13:25:31
+Input: I yearn to achieve my dreams and aspirations.
+Prediction: [{'text': 'I yearn to achieve my dreams and aspirations.', 'emotion': 'desire', 'score': 0.9999641180038452}]
+
+Timestamp: 2023-05-20 13:25:31
+Input: I crave the warmth of their embrace.
+Prediction: [{'text': 'I crave the warmth of their embrace.', 'emotion': 'desire', 'score': 0.9999401569366455}]
+
+Timestamp: 2023-05-20 13:25:31
+Input: Their passionate words ignite a fire within me.
+Prediction: [{'text': 'Their passionate words ignite a fire within me.', 'emotion': 'admiration', 'score': 0.9998500347137451}]
+
+Timestamp: 2023-05-20 13:25:31
+Input: I'm consumed by a strong desire to succeed.
+Prediction: [{'text': "I'm consumed by a strong desire to succeed.", 'emotion': 'desire', 'score': 0.9998375177383423}]
+
+Timestamp: 2023-05-20 13:25:31
+Input: I'm eager to explore new horizons and push my limits.
+Prediction: [{'text': "I'm eager to explore new horizons and push my limits.", 'emotion': 'amusement', 'score': 0.9985426664352417}]
+
+Timestamp: 2023-05-20 13:25:31
+Input: Their charisma and charm awaken a desire in me.
+Prediction: [{'text': 'Their charisma and charm awaken a desire in me.', 'emotion': 'admiration', 'score': 0.9999451637268066}]
+
+Timestamp: 2023-05-20 13:25:31
+Input: I'm driven by an insatiable hunger for success.
+Prediction: [{'text': "I'm driven by an insatiable hunger for success.", 'emotion': 'desire', 'score': 0.9997859597206116}]
+
+Timestamp: 2023-05-20 13:25:31
+Input: I'm filled with an intense longing to experience life to the fullest.
+Prediction: [{'text': "I'm filled with an intense longing to experience life to the fullest.", 'emotion': 'desire', 'score': 0.9992109537124634}]
+
+Timestamp: 2023-05-20 13:25:42
+Input: I strongly disagree with their actions.
+Prediction: [{'text': 'I strongly disagree with their actions.', 'emotion': 'annoyance', 'score': 0.9999512434005737}]
+
+Timestamp: 2023-05-20 13:25:43
+Input: Their behavior is completely unacceptable.
+Prediction: [{'text': 'Their behavior is completely unacceptable.', 'emotion': 'annoyance', 'score': 0.9999529123306274}]
+
+Timestamp: 2023-05-20 13:25:43
+Input: I can't help but express my disapproval.
+Prediction: [{'text': "I can't help but express my disapproval.", 'emotion': 'annoyance', 'score': 0.9999568462371826}]
+
+Timestamp: 2023-05-20 13:25:43
+Input: Their decisions leave much to be desired.
+Prediction: [{'text': 'Their decisions leave much to be desired.', 'emotion': 'neutral', 'score': 0.9999251365661621}]
+
+Timestamp: 2023-05-20 13:25:43
+Input: I'm disappointed by their lack of integrity.
+Prediction: [{'text': "I'm disappointed by their lack of integrity.", 'emotion': 'sadness', 'score': 0.9999549388885498}]
+
+Timestamp: 2023-05-20 13:25:43
+Input: Their attitude is highly inappropriate and deserves disapproval.
+Prediction: [{'text': 'Their attitude is highly inappropriate and deserves disapproval.', 'emotion': 'annoyance', 'score': 0.9999456405639648}]
+
+Timestamp: 2023-05-20 13:25:43
+Input: I vehemently object to their unethical conduct.
+Prediction: [{'text': 'I vehemently object to their unethical conduct.', 'emotion': 'annoyance', 'score': 0.999941349029541}]
+
+Timestamp: 2023-05-20 13:25:43
+Input: Their actions go against my principles and values.
+Prediction: [{'text': 'Their actions go against my principles and values.', 'emotion': 'annoyance', 'score': 0.9999475479125977}]
+
+Timestamp: 2023-05-20 13:25:43
+Input: I find their behavior to be deeply disrespectful.
+Prediction: [{'text': 'I find their behavior to be deeply disrespectful.', 'emotion': 'annoyance', 'score': 0.9998809099197388}]
+
+Timestamp: 2023-05-20 13:25:43
+Input: I express my clear disapproval of their actions.
+Prediction: [{'text': 'I express my clear disapproval of their actions.', 'emotion': 'annoyance', 'score': 0.999947190284729}]
+
+Timestamp: 2023-05-20 13:25:43
+Input: I strongly disagree with their actions.
+Prediction: [{'text': 'I strongly disagree with their actions.', 'emotion': 'annoyance', 'score': 0.9999512434005737}]
+
+Timestamp: 2023-05-20 13:25:44
+Input: Their behavior is completely unacceptable.
+Prediction: [{'text': 'Their behavior is completely unacceptable.', 'emotion': 'annoyance', 'score': 0.9999529123306274}]
+
+Timestamp: 2023-05-20 13:25:44
+Input: I can't help but express my disapproval.
+Prediction: [{'text': "I can't help but express my disapproval.", 'emotion': 'annoyance', 'score': 0.9999568462371826}]
+
+Timestamp: 2023-05-20 13:25:44
+Input: Their decisions leave much to be desired.
+Prediction: [{'text': 'Their decisions leave much to be desired.', 'emotion': 'neutral', 'score': 0.9999251365661621}]
+
+Timestamp: 2023-05-20 13:25:44
+Input: I'm disappointed by their lack of integrity.
+Prediction: [{'text': "I'm disappointed by their lack of integrity.", 'emotion': 'sadness', 'score': 0.9999549388885498}]
+
+Timestamp: 2023-05-20 13:25:44
+Input: Their attitude is highly inappropriate and deserves disapproval.
+Prediction: [{'text': 'Their attitude is highly inappropriate and deserves disapproval.', 'emotion': 'annoyance', 'score': 0.9999456405639648}]
+
+Timestamp: 2023-05-20 13:25:44
+Input: I vehemently object to their unethical conduct.
+Prediction: [{'text': 'I vehemently object to their unethical conduct.', 'emotion': 'annoyance', 'score': 0.999941349029541}]
+
+Timestamp: 2023-05-20 13:25:44
+Input: Their actions go against my principles and values.
+Prediction: [{'text': 'Their actions go against my principles and values.', 'emotion': 'annoyance', 'score': 0.9999475479125977}]
+
+Timestamp: 2023-05-20 13:25:44
+Input: I find their behavior to be deeply disrespectful.
+Prediction: [{'text': 'I find their behavior to be deeply disrespectful.', 'emotion': 'annoyance', 'score': 0.9998809099197388}]
+
+Timestamp: 2023-05-20 13:25:45
+Input: I express my clear disapproval of their actions.
+Prediction: [{'text': 'I express my clear disapproval of their actions.', 'emotion': 'annoyance', 'score': 0.999947190284729}]
+
+Timestamp: 2023-05-20 13:25:50
+Input: I'm terrified of what the future holds.
+Prediction: [{'text': "I'm terrified of what the future holds.", 'emotion': 'fear', 'score': 0.9999655485153198}]
+
+Timestamp: 2023-05-20 13:25:51
+Input: Their presence fills me with an overwhelming sense of fear.
+Prediction: [{'text': 'Their presence fills me with an overwhelming sense of fear.', 'emotion': 'fear', 'score': 0.9999585151672363}]
+
+Timestamp: 2023-05-20 13:25:51
+Input: I'm paralyzed by fear and unable to take action.
+Prediction: [{'text': "I'm paralyzed by fear and unable to take action.", 'emotion': 'fear', 'score': 0.9999529123306274}]
+
+Timestamp: 2023-05-20 13:25:51
+Input: Their words send shivers down my spine.
+Prediction: [{'text': 'Their words send shivers down my spine.', 'emotion': 'fear', 'score': 0.9999450445175171}]
+
+Timestamp: 2023-05-20 13:25:51
+Input: I'm haunted by the fear of failure.
+Prediction: [{'text': "I'm haunted by the fear of failure.", 'emotion': 'fear', 'score': 0.9998495578765869}]
+
+Timestamp: 2023-05-20 13:25:51
+Input: I can't escape the gripping fear that engulfs me.
+Prediction: [{'text': "I can't escape the gripping fear that engulfs me.", 'emotion': 'fear', 'score': 0.9999608993530273}]
+
+Timestamp: 2023-05-20 13:25:51
+Input: Their menacing presence fills me with terror.
+Prediction: [{'text': 'Their menacing presence fills me with terror.', 'emotion': 'fear', 'score': 0.9999589920043945}]
+
+Timestamp: 2023-05-20 13:25:51
+Input: I'm overcome with a sense of dread and apprehension.
+Prediction: [{'text': "I'm overcome with a sense of dread and apprehension.", 'emotion': 'fear', 'score': 0.9999654293060303}]
+
+Timestamp: 2023-05-20 13:25:51
+Input: I live in constant fear of the unknown.
+Prediction: [{'text': 'I live in constant fear of the unknown.', 'emotion': 'fear', 'score': 0.9999686479568481}]
+
+Timestamp: 2023-05-20 13:25:51
+Input: Their actions have instilled a deep fear within me.
+Prediction: [{'text': 'Their actions have instilled a deep fear within me.', 'emotion': 'fear', 'score': 0.9999512434005737}]
+
+Timestamp: 2023-05-20 13:25:59
+Input: I'm hopeful for a brighter tomorrow.
+Prediction: [{'text': "I'm hopeful for a brighter tomorrow.", 'emotion': 'optimism', 'score': 0.9999352693557739}]
+
+Timestamp: 2023-05-20 13:25:59
+Input: Their positive outlook is contagious.
+Prediction: [{'text': 'Their positive outlook is contagious.', 'emotion': 'admiration', 'score': 0.999717652797699}]
+
+Timestamp: 2023-05-20 13:25:59
+Input: I'm filled with optimism about the future.
+Prediction: [{'text': "I'm filled with optimism about the future.", 'emotion': 'optimism', 'score': 0.9998443126678467}]
+
+Timestamp: 2023-05-20 13:25:59
+Input: Their unwavering belief inspires me to keep going.
+Prediction: [{'text': 'Their unwavering belief inspires me to keep going.', 'emotion': 'admiration', 'score': 0.9998902082443237}]
+
+Timestamp: 2023-05-20 13:25:59
+Input: I see endless possibilities and opportunities ahead.
+Prediction: [{'text': 'I see endless possibilities and opportunities ahead.', 'emotion': 'optimism', 'score': 0.9999114274978638}]
+
+Timestamp: 2023-05-20 13:25:59
+Input: Their resilience gives me hope in the face of challenges.
+Prediction: [{'text': 'Their resilience gives me hope in the face of challenges.', 'emotion': 'admiration', 'score': 0.9989169836044312}]
+
+Timestamp: 2023-05-20 13:25:59
+Input: I'm optimistic that things will work out in the end.
+Prediction: [{'text': "I'm optimistic that things will work out in the end.", 'emotion': 'optimism', 'score': 0.9999383687973022}]
+
+Timestamp: 2023-05-20 13:26:00
+Input: Their encouraging words uplift my spirits.
+Prediction: [{'text': 'Their encouraging words uplift my spirits.', 'emotion': 'admiration', 'score': 0.9997276663780212}]
+
+Timestamp: 2023-05-20 13:26:00
+Input: I believe that great things are on the horizon.
+Prediction: [{'text': 'I believe that great things are on the horizon.', 'emotion': 'optimism', 'score': 0.999895453453064}]
+
+Timestamp: 2023-05-20 13:26:00
+Input: Their optimism is a beacon of light in dark times.
+Prediction: [{'text': 'Their optimism is a beacon of light in dark times.', 'emotion': 'admiration', 'score': 0.999658465385437}]
+
+Timestamp: 2023-05-20 13:26:13
+Input: I've come to the realization that change is necessary.
+Prediction: [{'text': "I've come to the realization that change is necessary.", 'emotion': 'realisation', 'score': 0.9999423027038574}]
+
+Timestamp: 2023-05-20 13:26:14
+Input: Their words have led to a profound realization.
+Prediction: [{'text': 'Their words have led to a profound realization.', 'emotion': 'admiration', 'score': 0.9995784163475037}]
+
+Timestamp: 2023-05-20 13:26:14
+Input: I'm finally beginning to understand the truth of the matter.
+Prediction: [{'text': "I'm finally beginning to understand the truth of the matter.", 'emotion': 'realisation', 'score': 0.9999176263809204}]
+
+Timestamp: 2023-05-20 13:26:14
+Input: Their actions have opened my eyes to a new reality.
+Prediction: [{'text': 'Their actions have opened my eyes to a new reality.', 'emotion': 'realisation', 'score': 0.9976867437362671}]
+
+Timestamp: 2023-05-20 13:26:14
+Input: I've had a moment of clarity and sudden understanding.
+Prediction: [{'text': "I've had a moment of clarity and sudden understanding.", 'emotion': 'realisation', 'score': 0.9985068440437317}]
+
+Timestamp: 2023-05-20 13:26:14
+Input: Their insights have sparked a realization within me.
+Prediction: [{'text': 'Their insights have sparked a realization within me.', 'emotion': 'admiration', 'score': 0.998960018157959}]
+
+Timestamp: 2023-05-20 13:26:14
+Input: I've come to a deep realization about my own behavior.
+Prediction: [{'text': "I've come to a deep realization about my own behavior.", 'emotion': 'realisation', 'score': 0.9999350309371948}]
+
+Timestamp: 2023-05-20 13:26:14
+Input: Their revelation has brought about a significant shift in my perspective.
+Prediction: [{'text': 'Their revelation has brought about a significant shift in my perspective.', 'emotion': 'admiration', 'score': 0.9996280670166016}]
+
+Timestamp: 2023-05-20 13:26:15
+Input: I'm now aware of the impact of my actions.
+Prediction: [{'text': "I'm now aware of the impact of my actions.", 'emotion': 'realisation', 'score': 0.999948263168335}]
+
+Timestamp: 2023-05-20 13:26:15
+Input: Their wisdom has led me to a realization that will shape my future.
+Prediction: [{'text': 'Their wisdom has led me to a realization that will shape my future.', 'emotion': 'admiration', 'score': 0.9991759657859802}]
+
+Timestamp: 2023-05-20 13:26:22
+Input: I feel a sense of relief knowing that it's finally over.
+Prediction: [{'text': "I feel a sense of relief knowing that it's finally over.", 'emotion': 'relief', 'score': 0.9999617338180542}]
+
+Timestamp: 2023-05-20 13:26:22
+Input: Their help has brought immense relief to my situation.
+Prediction: [{'text': 'Their help has brought immense relief to my situation.', 'emotion': 'relief', 'score': 0.9997445940971375}]
+
+Timestamp: 2023-05-20 13:26:22
+Input: I can breathe a sigh of relief now that the burden has been lifted.
+Prediction: [{'text': 'I can breathe a sigh of relief now that the burden has been lifted.', 'emotion': 'relief', 'score': 0.9999517202377319}]
+
+Timestamp: 2023-05-20 13:26:22
+Input: Their support has provided much-needed relief during a difficult time.
+Prediction: [{'text': 'Their support has provided much-needed relief during a difficult time.', 'emotion': 'admiration', 'score': 0.9990377426147461}]
+
+Timestamp: 2023-05-20 13:26:22
+Input: I'm relieved to have found a solution to the problem.
+Prediction: [{'text': "I'm relieved to have found a solution to the problem.", 'emotion': 'relief', 'score': 0.9999444484710693}]
+
+Timestamp: 2023-05-20 13:26:22
+Input: Their actions have brought me a sense of relief and peace.
+Prediction: [{'text': 'Their actions have brought me a sense of relief and peace.', 'emotion': 'relief', 'score': 0.9988945126533508}]
+
+Timestamp: 2023-05-20 13:26:22
+Input: I can finally relax and experience a sense of relief.
+Prediction: [{'text': 'I can finally relax and experience a sense of relief.', 'emotion': 'relief', 'score': 0.9999383687973022}]
+
+Timestamp: 2023-05-20 13:26:22
+Input: Their intervention has brought about a feeling of relief and gratitude.
+Prediction: [{'text': 'Their intervention has brought about a feeling of relief and gratitude.', 'emotion': 'admiration', 'score': 0.9999662637710571}]
+
+Timestamp: 2023-05-20 13:26:22
+Input: I'm grateful for the relief they have provided in this challenging situation.
+Prediction: [{'text': "I'm grateful for the relief they have provided in this challenging situation.", 'emotion': 'admiration', 'score': 0.9999542236328125}]
+
+Timestamp: 2023-05-20 13:26:22
+Input: I'm relieved to know that I'm not alone in this.
+Prediction: [{'text': "I'm relieved to know that I'm not alone in this.", 'emotion': 'relief', 'score': 0.999931812286377}]
+
+Timestamp: 2023-05-20 13:26:57
+Input: The weather today is quite pleasant.
+Prediction: [{'text': 'The weather today is quite pleasant.', 'emotion': 'admiration', 'score': 0.9969266057014465}]
+
+Timestamp: 2023-05-20 13:26:57
+Input: I'm looking forward to the weekend.
+Prediction: [{'text': "I'm looking forward to the weekend.", 'emotion': 'admiration', 'score': 0.9990699887275696}]
+
+Timestamp: 2023-05-20 13:26:57
+Input: I enjoy spending time with my friends and family.
+Prediction: [{'text': 'I enjoy spending time with my friends and family.', 'emotion': 'amusement', 'score': 0.9999327659606934}]
+
+Timestamp: 2023-05-20 13:26:57
+Input: I appreciate the beauty of nature.
+Prediction: [{'text': 'I appreciate the beauty of nature.', 'emotion': 'admiration', 'score': 0.9999704360961914}]
+
+Timestamp: 2023-05-20 13:26:57
+Input: I like to read books in my free time.
+Prediction: [{'text': 'I like to read books in my free time.', 'emotion': 'admiration', 'score': 0.9996435642242432}]
+
+Timestamp: 2023-05-20 13:26:57
+Input: I'm trying out a new recipe for dinner tonight.
+Prediction: [{'text': "I'm trying out a new recipe for dinner tonight.", 'emotion': 'neutral', 'score': 0.9999274015426636}]
+
+Timestamp: 2023-05-20 13:26:57
+Input: I find solace in listening to music.
+Prediction: [{'text': 'I find solace in listening to music.', 'emotion': 'admiration', 'score': 0.9998138546943665}]
+
+Timestamp: 2023-05-20 13:26:57
+Input: I'm planning to go for a walk later in the evening.
+Prediction: [{'text': "I'm planning to go for a walk later in the evening.", 'emotion': 'neutral', 'score': 0.9967227578163147}]
+
+Timestamp: 2023-05-20 13:26:58
+Input: I'm excited about the upcoming holiday season.
+Prediction: [{'text': "I'm excited about the upcoming holiday season.", 'emotion': 'amusement', 'score': 0.9999356269836426}]
+
+Timestamp: 2023-05-20 13:26:58
+Input: I value honesty and integrity in my relationships.
+Prediction: [{'text': 'I value honesty and integrity in my relationships.', 'emotion': 'admiration', 'score': 0.9998123049736023}]
+
+Timestamp: 2023-05-20 13:27:00
+Input: I feel a deep sadness in my heart.
+Prediction: [{'text': 'I feel a deep sadness in my heart.', 'emotion': 'sadness', 'score': 0.999951958656311}]
+
+Timestamp: 2023-05-20 13:27:00
+Input: Their absence has left me feeling empty and sad.
+Prediction: [{'text': 'Their absence has left me feeling empty and sad.', 'emotion': 'sadness', 'score': 0.999953031539917}]
+
+Timestamp: 2023-05-20 13:27:00
+Input: I'm overcome with a profound sadness that's hard to describe.
+Prediction: [{'text': "I'm overcome with a profound sadness that's hard to describe.", 'emotion': 'sadness', 'score': 0.9999592304229736}]
+
+Timestamp: 2023-05-20 13:27:00
+Input: Their departure has brought about a sense of sadness and longing.
+Prediction: [{'text': 'Their departure has brought about a sense of sadness and longing.', 'emotion': 'sadness', 'score': 0.999954104423523}]
+
+Timestamp: 2023-05-20 13:27:00
+Input: I can't help but feel a wave of sadness wash over me.
+Prediction: [{'text': "I can't help but feel a wave of sadness wash over me.", 'emotion': 'sadness', 'score': 0.9999535083770752}]
+
+Timestamp: 2023-05-20 13:27:00
+Input: Their words have filled me with a deep sense of sadness and sorrow.
+Prediction: [{'text': 'Their words have filled me with a deep sense of sadness and sorrow.', 'emotion': 'sadness', 'score': 0.9999579191207886}]
+
+Timestamp: 2023-05-20 13:27:00
+Input: I'm mourning the loss and feeling a heavy sadness in my soul.
+Prediction: [{'text': "I'm mourning the loss and feeling a heavy sadness in my soul.", 'emotion': 'sadness', 'score': 0.9999536275863647}]
+
+Timestamp: 2023-05-20 13:27:00
+Input: Their actions have caused me great sadness and despair.
+Prediction: [{'text': 'Their actions have caused me great sadness and despair.', 'emotion': 'sadness', 'score': 0.9999489784240723}]
+
+Timestamp: 2023-05-20 13:27:01
+Input: I'm enveloped in a blanket of sadness that's hard to shake off.
+Prediction: [{'text': "I'm enveloped in a blanket of sadness that's hard to shake off.", 'emotion': 'sadness', 'score': 0.999958872795105}]
+
+Timestamp: 2023-05-20 13:27:01
+Input: Their situation brings tears to my eyes and fills me with sadness.
+Prediction: [{'text': 'Their situation brings tears to my eyes and fills me with sadness.', 'emotion': 'sadness', 'score': 0.9999569654464722}]
+
+Timestamp: 2023-05-20 13:27:03
+Input: I'm taken aback by their unexpected act of kindness.
+Prediction: [{'text': "I'm taken aback by their unexpected act of kindness.", 'emotion': 'surprise', 'score': 0.9998891353607178}]
+
+Timestamp: 2023-05-20 13:27:03
+Input: Their announcement came as a complete surprise to me.
+Prediction: [{'text': 'Their announcement came as a complete surprise to me.', 'emotion': 'surprise', 'score': 0.9999011754989624}]
+
+Timestamp: 2023-05-20 13:27:03
+Input: I'm pleasantly surprised by the outcome.
+Prediction: [{'text': "I'm pleasantly surprised by the outcome.", 'emotion': 'surprise', 'score': 0.9999113082885742}]
+
+Timestamp: 2023-05-20 13:27:03
+Input: Their unexpected gesture has left me speechless.
+Prediction: [{'text': 'Their unexpected gesture has left me speechless.', 'emotion': 'surprise', 'score': 0.999822199344635}]
+
+Timestamp: 2023-05-20 13:27:03
+Input: I'm amazed by their sudden change in behavior.
+Prediction: [{'text': "I'm amazed by their sudden change in behavior.", 'emotion': 'surprise', 'score': 0.9999197721481323}]
+
+Timestamp: 2023-05-20 13:27:03
+Input: Their surprising revelation has left me in awe.
+Prediction: [{'text': 'Their surprising revelation has left me in awe.', 'emotion': 'surprise', 'score': 0.9978457689285278}]
+
+Timestamp: 2023-05-20 13:27:03
+Input: I'm in a state of disbelief due to their unexpected achievement.
+Prediction: [{'text': "I'm in a state of disbelief due to their unexpected achievement.", 'emotion': 'surprise', 'score': 0.9984737038612366}]
+
+Timestamp: 2023-05-20 13:27:03
+Input: Their surprising talent has caught me off guard.
+Prediction: [{'text': 'Their surprising talent has caught me off guard.', 'emotion': 'surprise', 'score': 0.9992814660072327}]
+
+Timestamp: 2023-05-20 13:27:04
+Input: I'm pleasantly surprised by the positive turn of events.
+Prediction: [{'text': "I'm pleasantly surprised by the positive turn of events.", 'emotion': 'surprise', 'score': 0.999900221824646}]
+
+Timestamp: 2023-05-20 13:27:04
+Input: Their unexpected response has left me pleasantly surprised.
+Prediction: [{'text': 'Their unexpected response has left me pleasantly surprised.', 'emotion': 'surprise', 'score': 0.9999128580093384}]
+

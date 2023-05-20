@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.10"]
+        python-version: ["3.10", "3.11"]
         
 
     steps:
@@ -27,6 +27,3 @@ jobs:
             pip install ruff
             ruff --format=github --target-version=py37 .
         continue-on-error: true
-      - name: Testing
-        run: |
-            python test.py

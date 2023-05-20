@@ -65,7 +65,8 @@ def replace_labels(labels):
   return labels
 
 def class_freq(data):
-    class_freq = {} #create a dic of class freq. for visualisation purposes
+    #create a dic of class freq. for visualisation purposes
+    class_freq = {} 
     classes = list(range(0,14))
     for x in classes:
         class_freq[x] = 0
@@ -77,7 +78,8 @@ def class_freq(data):
             class_freq[j] +=1
     return class_freq
 
-def remove_dupes(data): #stops a data point from having same class label more than once
+#stops a data point from having same class label more than once
+def remove_dupes(data): 
     z = []
     for x in data:
         z.append(list(dict.fromkeys(x)))
@@ -97,7 +99,8 @@ def multilabel2multiclass(ls, class_dict):
             ls[i] = [min(temp2)]
     return ls
 
-def num2word(x): # converts numbers back to class names for visualisation purposes
+# converts numbers back to class names for visualisation purposes
+def num2word(x): 
     if x == 0:
         return 'admiration'
     if x == 1:
@@ -142,15 +145,4 @@ def format_output(predictions, input_text):
         formatted_output.append(string)
     return formatted_output
 
-
-def requestResults():
-    
-    test = get_test_data()
-    test = test['text'].to_list()
-    testtext = test[24]
-    ans = pipeline.predict(testtext)
-
-    #data = str(test['prediction']) + '\n\n'
-    #data = str(test.prediction.value_counts()) + '\n\n'
-    return format(ans, testtext)
 

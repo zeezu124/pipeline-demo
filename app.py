@@ -4,7 +4,7 @@ from joblib import load
 import torch as torch
 import pandas as pd
 from preprocess import preprocess
-from utils import *
+from utils import format
 import datetime
 
 pd.set_option('display.max_colwidth', 1000)

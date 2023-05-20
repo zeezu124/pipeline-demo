@@ -107,12 +107,25 @@ def predict():
         input_text = request.json['input_text']  # Get the input text from the request
         prediction = pipeline.predict([input_text])  # Make prediction on the input text using the pipeline
         #predicted_label = prediction# Assuming prediction is a single label
-        string = format(prediction, input_text)
+        #changed from format to format_output
+        string = format_output(prediction, input_text)
         log_interaction(input_text, string)
         return jsonify({'output': string})  # Return predicted label as JSON response
     
     return jsonify({'error': 'Invalid request'})
 
+@app.route('/results_json', methods=['POST'])
+def predict1():
+    if 'input_text' in request.json:
+        input_text = request.json['input_text']  # Get the input text from the request
+        prediction = pipeline.predict([input_text])  # Make prediction on the input text using the pipeline
+        #predicted_label = prediction# Assuming prediction is a single label
+        #changed from format to format_output
+        string = format_output(prediction, input_text)
+        log_interaction(input_text, string)
+        return jsonify({'output': string})  # Return predicted label as JSON response
+    
+    return jsonify({'error': 'Invalid request'})
 
 
     
